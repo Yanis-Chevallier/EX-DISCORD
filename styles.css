@@ -1,18 +1,40 @@
 body {
     background-image: url('assets/Discord-F.jpg');
+    width: 100%;
   }
 /*Header + Ul*/  
 header {
     background-color: rgb(42, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 ul {
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
-        }
-/*-----------------------------------------------------*/
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
 
+header img {
+  max-width: 200px;
+}
+
+header .liens {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header .liens a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+/*-----------------------------------------------------*/
 /*Index -----------------------------------------------*/
 .containerI {
     display: flex;
@@ -101,16 +123,33 @@ ul {
   }
 
 /* ---------------------------------------------------*/
-/* Se Connecter---------------------------------------*/
-.form-group {
+/* Blog-----------------------------------------------*/
+.imgblog {
     display: flex;
     justify-content: center;
-    border-radius:5px;
-    background-color: rgb(42, 42, 42);
-    margin: 200px ;
+    align-items: center;
 }
-.form-group label {
-    display: block;
-    padding: 10px;
+
+.textblog {
+    color: white;
+}
+
+/* ---------------------------------------------------*/
+/* Se Connecter---------------------------------------*/
+.form-group {
+    background-color: rgb(42, 42, 42);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    color: white;
+}
+
+.page-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 /* ---------------------------------------------------*/
