@@ -1,0 +1,116 @@
+body {
+    background-image: url('assets/Discord-F.jpg');
+  }
+/*Header + Ul*/  
+header {
+    background-color: rgb(42, 42, 42);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+        }
+/*-----------------------------------------------------*/
+
+/*Index -----------------------------------------------*/
+.containerI {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .textindex {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .imgindex {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .imgindex img {
+    max-width: 100%;
+    height: auto; 
+  }
+  /* -------------------------------------------------*/
+/*découvrir ------------------------------------------*/
+.banner-container {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.banner-image {
+    width: 100%;
+    display: block;
+}
+
+.banner-titre, .banner-sous-titre {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.banner-titre {
+    top: 40%;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
+.banner-sous-titre {
+    top: 50%;
+    font-size: 1.2em; 
+    color: black;
+}
+/*Je dois centré l'img et j'aimerais que h1 et h4 soit sur l'image en css
+
+<img src="assets/discord-bb.png" alt="Bannière" style="width: 1000px;"> 
+    <h1>Find your community on discord</h1>
+    <h4>From gaming, to music, to learning, there's a place for you.</h4>*/
+/* ---------------------------------------------------*/
+/* Publicité------------------------------------------*/
+.containerP {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .textpub {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .imgpub {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .imgpub img {
+    max-width: 100%;
+    height: auto; 
+  }
+
+/* ---------------------------------------------------*/
+/* Se Connecter---------------------------------------*/
+.form-group {
+    display: flex;
+    justify-content: center;
+    border-radius:5px;
+    background-color: rgb(42, 42, 42);
+    margin: 200px ;
+}
+.form-group label {
+    display: block;
+    padding: 10px;
+}
+/* ---------------------------------------------------*/
