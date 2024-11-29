@@ -153,3 +153,20 @@ header .liens a {
     height: 100vh;
 }
 /* ---------------------------------------------------*/
+/* Animation css #3844e6--------------------------------------*/
+/* Couleur par défaut pour les liens */
+/* Style des liens dans la liste */
+ul.liens a {
+    color: rgb(255, 255, 255); /* Couleur initiale de la police */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
+  }
+  
+  /* Changement de couleur au survol */
+  ul.liens a:hover {
+    color: #6870d5; /* Couleur au survol */
+  }
+  
+  
+
+  
