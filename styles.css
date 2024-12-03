@@ -1,6 +1,8 @@
 body {
     background-image: url('assets/Discord-F.jpg');
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
 /*Header + Ul*/  
 header {
@@ -131,7 +133,7 @@ header .liens a {
 }
 
 .textblog {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 /* ---------------------------------------------------*/
@@ -154,17 +156,14 @@ header .liens a {
 }
 /* ---------------------------------------------------*/
 /* Animation css #3844e6--------------------------------------*/
-/* Couleur par défaut pour les liens */
-/* Style des liens dans la liste */
 ul.liens a {
-    color: rgb(255, 255, 255); /* Couleur initiale de la police */
-    text-decoration: none; /* Supprime le soulignement par défaut */
-    transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 0.3s ease;
   }
   
-  /* Changement de couleur au survol */
   ul.liens a:hover {
-    color: #6870d5; /* Couleur au survol */
+    color: #6870d5;
   }
   
   
