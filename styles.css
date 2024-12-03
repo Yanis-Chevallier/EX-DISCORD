@@ -93,11 +93,7 @@ header .liens a {
     font-size: 1.2em; 
     color: black;
 }
-/*Je dois centré l'img et j'aimerais que h1 et h4 soit sur l'image en css
 
-<img src="assets/discord-bb.png" alt="Bannière" style="width: 1000px;"> 
-    <h1>Find your community on discord</h1>
-    <h4>From gaming, to music, to learning, there's a place for you.</h4>*/
 /* ---------------------------------------------------*/
 /* Publicité------------------------------------------*/
 .containerP {
