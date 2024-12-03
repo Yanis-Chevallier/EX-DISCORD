@@ -49,6 +49,8 @@ header .liens a {
     flex: 1;
     margin-right: 20px;
     text-align: left;
+    color: #ff0000;
+    background-color: rgb(42, 42, 42);
   }
   
   .imgindex {
@@ -85,13 +87,13 @@ header .liens a {
     top: 40%;
     font-size: 2em;
     font-weight: bold;
-    color: black;
+    color: rgb(42, 42, 42);
 }
 
 .banner-sous-titre {
     top: 50%;
     font-size: 1.2em; 
-    color: black;
+    color: rgb(42, 42, 42);
 }
 
 /* ---------------------------------------------------*/
@@ -108,6 +110,7 @@ header .liens a {
     flex: 1;
     margin-right: 20px;
     text-align: left;
+    color: rgb(42, 42, 42);
   }
   
   .imgpub {
@@ -132,6 +135,8 @@ header .liens a {
 
 .textblog {
     color: rgb(0, 0, 0);
+    background-color: #ff0062; /* Couleur initiale */
+    animation: colorTransition 3s infinite; /* Animation avec une durée de 3s */
 }
 
 /* ---------------------------------------------------*/
@@ -153,7 +158,7 @@ header .liens a {
     height: 100vh;
 }
 /* ---------------------------------------------------*/
-/* Animation css #3844e6--------------------------------------*/
+/* Animation css--------------------------------------*/
 ul.liens a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -166,4 +171,30 @@ ul.liens a {
   
   
 
-  
+  @keyframes colorTransition {
+    0% {
+        background-color: #ff0062; /* Couleur initiale */
+    }
+    50% {
+        background-color: #0066ff; /* Couleur intermédiaire */
+    }
+    100% {
+        background-color: #ff0062; /* Retour à la couleur initiale */
+    }
+}
+
+.textindex {
+    animation: textColorTransition 3s infinite; /* Animation appliquée sur le texte */
+}
+
+@keyframes textColorTransition {
+    0% {
+        color: #ff0000; /* Couleur initiale */
+    }
+    50% {
+        color: #004cff; /* Couleur intermédiaire */
+    }
+    100% {
+        color: #00ff04; /* Retour à la couleur initiale */
+    }
+}
