@@ -52,7 +52,7 @@ header .liens a {
     color: #ff0000;
     background-color: rgb(42, 42, 42);
   }
-  
+
   .imgindex {
     flex: 1;
     display: flex;
@@ -63,6 +63,7 @@ header .liens a {
     max-width: 100%;
     height: auto; 
   }
+
 /* ---------------------------------------------------*/
 /*découvrir ------------------------------------------*/
 .banner-container {
@@ -155,8 +156,9 @@ header .liens a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
 }
+
 /* ---------------------------------------------------*/
 /* Animation css--------------------------------------*/
 ul.liens a {
@@ -168,9 +170,11 @@ ul.liens a {
   ul.liens a:hover {
     color: #6870d5;
   }
-  
-  
 
+  .textindex:hover {
+    opacity: 0.5;
+}
+  
   @keyframes colorTransition {
     0% {
         background-color: #ff0062; /* Couleur initiale */
