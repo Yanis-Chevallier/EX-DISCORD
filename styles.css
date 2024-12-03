@@ -194,7 +194,7 @@ ul.liens a {
     50% {
         color: #004cff; /* Couleur intermédiaire */
     }
-    100% {
+    85% {
         color: #00ff04; /* Retour à la couleur initiale */
     }
 }
