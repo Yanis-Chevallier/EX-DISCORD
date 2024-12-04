@@ -177,28 +177,37 @@ ul.liens a {
   
   @keyframes colorTransition {
     0% {
-        background-color: #ff0062; /* Couleur initiale */
+        background-color: #ff0062;
     }
     50% {
-        background-color: #0066ff; /* Couleur intermédiaire */
+        background-color: #0066ff;
     }
     100% {
-        background-color: #ff0062; /* Retour à la couleur initiale */
+        background-color: #ff0062;
     }
 }
 
 .textindex {
-    animation: textColorTransition 3s infinite; /* Animation appliquée sur le texte */
+    animation: textColorTransition 3s infinite;
 }
 
 @keyframes textColorTransition {
     0% {
-        color: #ff0000; /* Couleur initiale */
+        color: #ff0000;
     }
     50% {
-        color: #004cff; /* Couleur intermédiaire */
+        color: #004cff;
     }
     85% {
-        color: #00ff04; /* Retour à la couleur initiale */
+        color: #00ff04;
     }
+}
+
+.animated-label {
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+}
+
+.animated-label:hover {
+    color: #6870d5;
 }
