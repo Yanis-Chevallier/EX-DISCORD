@@ -6,8 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title><EX-DISCORD></title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      h1, h2 {
+        transition: color 1s ease; /* Transition */
+      }
+    </style>
   </head>
   <body>
+    <script src="Test.js"></script>
     <header>
         <a href="index.html">
           <img src="assets/Discord-L.png" alt="Discord" style="width: 200px;">
@@ -20,11 +26,30 @@
           </ul> 
       </header>
     <div class="containerP">
-    <div class="imgpub">
-    <img src="assets/discord-P.jpg" alt="Pub" style="width: 500px;">
-</div>
-    <div class="textpub">
-<h1>DE LA PUBLICITÉ QUI NE RESSEMBLE PAS À DE LA PUBLICITÉ</h1>
-<h2>Les Quêtes, c'est notre nouveau format publicitaire conçu pour impliquer les joueurs et les inciter à jouer à votre jeu.</h2>
-</div>
-</div>
+      <div class="imgpub">
+        <img src="assets/discord-P.jpg" alt="Pub" style="width: 500px;">
+      </div>
+      <div class="textpub">
+        <h1>DE LA PUBLICITÉ QUI NE RESSEMBLE PAS À DE LA PUBLICITÉ</h1>
+        <h2>Les Quêtes, c'est notre nouveau format publicitaire conçu pour impliquer les joueurs et les inciter à jouer à votre jeu.</h2>
+      </div>
+    </div>
+    <script>
+      // Récupère les éléments h1 et h2
+      const titres = document.querySelectorAll('h1, h2');
+      const couleurs = ['red', 'blue', 'green', 'orange', 'purple', 'pink'];
+      let index = 0;
+
+      // Fonction pour changer les couleurs
+      function changerCouleur() {
+        titres.forEach(titre => {
+          titre.style.color = couleurs[index];
+        });
+        index = (index + 1) % couleurs.length; // Réinitialise l'index une fois à la fin
+        }
+
+      // Change de couleur (1 sec)
+      setInterval(changerCouleur, 1000);
+    </script>
+  </body>
+</html>

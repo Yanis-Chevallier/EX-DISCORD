@@ -27,8 +27,20 @@
             <p><label class="animated-label" for="mdp">Mot de passe :</label></p>
             <input type="text" id="mdp" placeholder="Votre mot de passe" required />
            <p><button id="envoyerButton" type="submit">Connexion</button></p>
+           <script>
+            const button = document.getElementById('envoyerButton');
+          
+            button.addEventListener('mouseover', () => {
+              button.style.color = 'red'; // Change la couleur de la police
+            });
+          
+            button.addEventListener('mouseout', () => {
+              button.style.color = 'black'; // Restaure la couleur de la police
+            });
+          </script>
         </div>
     </div>
       </main>
+      <script src="Test.js"></script>
   </body>
 </html>
